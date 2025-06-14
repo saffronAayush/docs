@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📄 Docs – Real-Time Collaborative Editor
 
-## Getting Started
+![Preview](./public/preview.png)
 
-First, run the development server:
+[Live Demo 🚀](https://docs-iota-navy.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📝 Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Docs** is a sleek, real-time collaborative document editor designed for modern teams and individuals. It includes essential formatting tools for rich text editing, and enables seamless collaboration through live updates, user tagging in comments, and dynamic document syncing.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Whether you're drafting solo or collaborating within your organization, Docs adapts to your workflow with intelligent permission handling and a user-friendly interface.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔧 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js** – App framework
+- **Clerk** – Authentication (users & organizations)
+- **Convex** – Real-time backend & database
+- **Tiptap** – Rich-text editor
+- **Liveblocks** – Real-time collaboration and presence
+- **Tailwind CSS** – Modern utility-first styling
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ✨ Key Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🧠 **Real-Time Collaboration**  
+  See updates instantly as others type, select, and edit — no refresh required.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🔐 **Clerk Authentication**  
+  Secure sign-in with personal or organization accounts.
+
+- 🏢 **Organization-Based Documents**  
+  Share and collaborate on documents within your org. Only members have access.
+
+- 🎨 **Rich Text Editing**  
+  Use formatting tools like bold, italics, headings, and more via the Tiptap editor.
+
+- 💬 **Commenting with Mentions**  
+  Tag other users and leave feedback inline or on sections of the document.
+
+- ⚡ **Live Presence Indicators**  
+  Know who’s viewing or editing in real time.
+
+---
+
+## 🛠️ Future Enhancements
+
+- Version history
+- Export to PDF/Markdown
+- More user roles (e.g., Viewer, Editor, Admin)
+- Offline support
+
+---
+
+## 📬 Feedback
+
+Feel free to open issues or suggestions. This project is built for modern collaboration, and improvements are always welcome!
+
+---
